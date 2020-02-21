@@ -6,6 +6,7 @@ describe 'somar' do
         it 'does something' do
             expect(resultado).to eq 8
             expect(res).to eq 12
+            puts 'testando essa porra '
         end
     end
 end

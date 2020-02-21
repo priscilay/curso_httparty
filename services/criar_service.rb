@@ -1,4 +1,4 @@
-module Contato
+module Criar
     #incluindo httparty
     include HTTParty
 

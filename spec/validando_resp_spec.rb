@@ -7,7 +7,5 @@ describe 'fazer uma requisicao', :resp do
         puts @mehorpcao.parsed_response['data']['attributes']['last-name']
         expect(@mehorpcao.parsed_response['data']['attributes']['last-name']).to eq 'defrancacandido'
         expect(@mehorpcao.parsed_response['data']['attributes']['age']).to eq 27
-       
-    
     end
 end
